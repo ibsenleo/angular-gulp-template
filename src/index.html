@@ -5,7 +5,7 @@
         <title></title>
         <link rel="stylesheet" href="./css/main.css" />
         <!-- bower:css -->
-        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
         <!-- endbower -->
 
         <!-- inject:css -->
@@ -13,20 +13,13 @@
     </head>
     <body>
         <div id="main-container" class="" ng-app="MainApp">
+            <aside ui-view="sidebar"></aside>
             <header ui-view="header"></header>
             <div ui-view="mainContent"></div>
         </div>
-        <!-- inject:test -->
-        <!-- endinject -->
 
         <!-- bower:js -->
-        <script src="../bower_components/jquery/dist/jquery.js"></script>
-        <script src="../bower_components/angular/angular.js"></script>
-        <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-        <script src="../bower_components/angular-animate/angular-animate.js"></script>
-        <script src="../bower_components/angular-touch/angular-touch.js"></script>
-        <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
         <!-- endbower -->
 
         <script src="./Main/MainApp.js" charset="utf-8"></script>
@@ -34,9 +27,17 @@
         <script src="./Main/Routes.js" charset="utf-8"></script>
         <script src="./Main/Filters.js" charset="utf-8"></script>
 
-        <script src="./Services/GlobalService.js" charset="utf-8"></script>
-        <script src="./Directives/noAnimate.js" charset="utf-8"></script>
-        <!-- inject:modules -->
+        <!-- inject:services -->
+
         <!-- endinject -->
+
+        <!-- inject:directives -->
+
+        <!-- endinject -->
+
+        <!-- inject:modules -->
+
+        <!-- endinject -->
+
     </body>
 </html>

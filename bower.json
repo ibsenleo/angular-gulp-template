@@ -27,16 +27,14 @@
     "angular-ui-router": "^0.2.18",
     "angular-animate": "^1.5.0",
     "angular-touch": "^1.5.0",
-    "bootstrap": "^3.3.6",
-    "angular-bootstrap": "^1.2.4"
-},
-"overrides":{
-    "bootstrap":{
-      "main":[
-      "dist/js/bootstrap.js",
-      "dist/css/bootstrap.min.css",
-      "less/bootstrap.less"
+    "angular-material": "^1.0.6",
+    "mdi": "^1.5.54"
+  },
+  "overrides": {
+    "mdi": {
+      "main": [
+        "css/materialdesignicons.css"
       ]
     }
-}
+  }
 }
